@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <title>WebS</title>
+ </head>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: none;
+       }
+       body{
+       background-color: #fdfdfd;
+       }
+       :root{
+        --ifr:2px;/*iframe 圆角*/
+        --vid:2px;/*video 圆角*/
+        --height-1:30%;/*播放器最小高度*/
+        --rgb0:#fefefe;/*播放器背景色*/
+        --rgb1:#000000;
+        --rgb2:#ffffff;
+        --no:none;
+        --c1:10px ;
+       }
+       video{
+        width: 100%;
+        padding: 0px;
+        min-height: var(--height-1);
+        background-color: var(--rgb0);
+        border-radius:var(--vide);
+       }
+       iframe{
+        width: 100%;
+        min-height: var(--height-1);
+        padding: 0px;
+        background-color: var(--rgb0);
+        border-radius: var(--ifr);
+       }
+       a{
+        text-decoration: var(--no);
+        color: var(--rgb1);
+        font-size: 14px;
+       }
+       /*头部*/
+       .c0{
+        background-color: #525465;
+        padding: 12px;
+        margin-top: 0px;
+        margin-bottom: 3px;
+       
+       }
+       /*视频容器*/
+       .c1{
+       display: relative;
+       margin: 10px;
+       margin-top: 12px;
+       margin-bottom: 12px;
+       padding: 2px;
+       background-color: #fefefe;
+       box-shadow: -1px -1px 10px #aaa;
+       border-radius: 4px;
+       
+       }
+       .c2{
+       background-color:#F1ECEC;
+       display: flex;
+       }
+       .c3{
+        color: #212;
+        background-color:rgba(225,215,215,0.20);
+        margin: 2px;
+        padding: 2px;
+        display: flex;
+        font-size: 12px;
+        text-align: left;
+       }
+       /*尾部*/
+       .cx{
+       background-color: #777;
+       padding: 14px;
+       }
+       .cx0{
+       
+       color: #525465;
+       margin-top: 5px;
+       text-outline: #fff;
+       padding: 2px;
+       }
+       /*视频标签*/
+       .z1{
+        background-color:rgba(239,239,239,0.82);
+        display: inline-block;
+        margin: 2px;
+        padding: 2px;
+        font-size: 12px;
+        cursor: pointer;
+        margin-left: 5px;
+        color: #1A1C1E;
+        border-radius: var(--c1);
+       }
+       
+    </style>
+ <body>
+ 
+      <div class="c0">
+        Xxxxx
+      </div>
+    <div class="c1">
+     <!--video-->
+          <iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=116538250107044&bvid=BV1PsdgBGEdJ&cid=38185469397&p=1&danmaku=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+            <!--txt文本-->
+           <div class="c3">
+             <p>iframe</p>
+            </div>   
+             
+               <div class="z1"> AI</div>
+               <div class="z1"> Wbe</div>
+               <div class="z1"> VPN</div>
+               <div class="z1"> Code</div>
+               <div class="z1"> Github</div>
+         </div>
+        </div>
+   
+     <div>
+     
+     <div class="c1">
+        <video controls poster="xxxx"  muted autoplay>
+         <source src="xxx"></source> 浏览器不支持视频播放,请更换浏览器
+        </video>
+        <div class="c3">
+           <p>video</p>
+        </div>
+      </div>
+      
+        <div class="c1">
+          <div>
+            
+             <center>视频框架项目</center>
+              <p style="text-align: center; margin: 2px;">
+              文字区
+              </p>
+            
+          
+          </div>
+        </div>
+     
+     <div class="cx">
+     <center>2026©H.h版权所有</center>
+       <div class="cx0">
+          <a href="">关于我们</a>
+          <a href="">相关链接</a>
+          <a href=""></a>
+          <a href=""></a>
+       </div>
+     </div>
+     
+  
+
+ </body>
+ </html>
+<script src="https://cdn.jsdelivr.net/npm/eruda-cn"></script>
+<script>
+  eruda.init()
+</script>
