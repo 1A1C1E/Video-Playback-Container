@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>WebS</title>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    font-family: system-ui, sans-serif;
+    color: #fff;
+    
+  }
+
+  /* ========= 公共卡片 ========= */
+  .card {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+    
+      padding: 1px 1px;
+    border-radius: 12px;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 40px 80px rgba(0,0,0,0.35);
+
+    opacity: 0;
+    transform: translateY(100px) rotateX(16deg) scale(0.96);
+    transform-style: preserve-3d;
+    perspective: 1200px;
+
+    transition:
+      opacity 0.85s ease,
+      transform 0.85s ease;
+  }
+
+  .card.show {
+    opacity: 1;
+    transform: translateY(0) rotateX(0) scale(1);
+  }
+
+  /* ========= 不同色块 ========= */
+  .bg-dark   { background: linear-gradient(135deg, #1a1c1e, #2d3135); }
+  .bg-blue   {
+       background: linear-gradient(135deg, #1e3a5f, #1e40af);
+       background-image: url("https://github.com/r4vh338/kk/blob/main/i2.jpg?raw=true");
+       background-position: center;
+       background-size: 100%;
+        }
+  .bg-dg { background: linear-gradient(135deg, #2a2a2a,#151716); }
+  .bg-gray   { background: linear-gradient(78deg, #313844,#404952); }
+
+  .imgqq{
+  
+  height: 90px;
+  border-radius: 50%;
+  }
+  .m1 {
+    text-align: center;
+    margin-top: 4px;
+  }
+
+  .m2 {
+    text-align:center;
+    height: 200px;
+  }
+  .m2-t{
+  justify-content: center;
+  display: grid;
+  margin: 4px;
+  
+  grid-template-columns: 100px 100px 100px ;
+  grid-template-rows: 100px 100px 100px ;
+  grid-template-areas:
+    "n1 n3 n3"
+    "n4 n4 n4";
+}
+    .n1,.n2,.n3{}
+.n1{
+ min-height: 50px;
+ min-width: 50px;
+ grid-area: n1; 
+ justify-content: left;
+ background-color: transparent;
+ }
+    .n2 {
+     grid-area: n2;
+     
+     min-height:50px ;
+     min-width:50px ;
+      }
+   .n3 { 
+     grid-area: n3;
+     justify-content: right;
+     
+     min-height:70px ;
+     min-width:70px;
+      }
+      .n4{
+      grid-area: n4;
+      min-height:60px ;
+      min-width:60px
+      }
+  
+
+  .m3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+    
+  }
+
+  .m4 {
+    padding: 4px;
+  }
+
+  .m5 {
+  display: flex;
+    padding: 2px;
+  }
+
+  a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  .css1{
+  background-color: #000;
+  
+  }
+  .svg1{
+            width: 25px;
+            height: 25px;
+            background-color: transparent;
+        }
+</style>
+</head>
+
+<body>
+
+<div>
+  
+  <div class="card bg-dark m1">
+    <h1>Website</h1>
+    <pre>𝚑𝚝𝚖𝚕 𝚡 𝚌𝚜𝚜 𝚡 𝚓𝚊𝚟𝚊 𝚂𝚌𝚛𝚒𝚙𝚝</pre>
+    
+  </div>
+
+  <div class="card bg-blue m2">
+  
+    <div class="m2-t">
+       <div class="n1"><img class="imgqq" src="https://q.qlogo.cn/g?b=qq&nk=3066886032&s=640"/></div>
+       
+       <div class="n3">
+        <h2>@2ixyop</h2>
+        <code>website</code>
+        <code> 开发者</code>
+       </div>
+       <div class="n4"><img src="svg.svg" style="width:100%;height:auto;"></div>
+      
+    </div>
+  </div>
+
+  <div class="card bg-dg m3">
+    <pre><a href="">进入首页</a></pre>
+    <pre><a href="">赞助</a></pre>
+    <pre><a href="">B站</a></pre>
+    
+  </div>
+
+  <div class="card bg-gray m4">
+      <p align="center">
+      <img src="https://skillicons.dev/icons?i=github,gitlab,html,css,php,py,linux,java,godot,js,nodejs,svg,kali,vue,androidstudio,instagram,discord,cloudflare&perline=6"/>
+</p>
+  </div>
+
+  
+  <div class="card bg-dark m5" style=" margin: 0px; border-radius: 0px; ">
+    <h4>2ixyop©版权所有</h4>
+   <div style="  text-align: right; margin: 20px; " > 
+        <a href=" https://v.douyin.com/FPRH-7qTTgc/ 7@5.com :1pm" class="a-1"><img src="dy.svg" class="svg1"/></a>
+           <a href="https://github.com/r4vh338" class="a-1"><img src="github.svg" class="svg1"/></a>
+              <a href="https://b23.tv/yv6qhPE" class="a-1"><img src="bilibili.svg" class="svg1"/></a>
+                  <a href="https://qm.qq.com/q/kYwuoEDcJ2" class="a-1"><img src="qq.svg" class="svg1"/></a>
+    </div>
+  </div>
+</div>
+
+<script>
+  const cards = document.querySelectorAll(".card");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    },
+    {
+      threshold: 0.3,
+    }
+  );
+
+  cards.forEach((card) => observer.observe(card));
+</script>
+<script src="https://cdn.jsdelivr.net/npm/eruda-cn"></script>
+<script>
+  eruda.init()
+</script>
+</body>
+</html>
